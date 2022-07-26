@@ -1,0 +1,53 @@
+car:
+  brand: BYD
+  price: 10000
+
+person:
+  #String     松散绑定  - 后面跟着的字母默认是大写的
+  userName: pepsi-wyl
+
+  #Boolean
+  boss: true
+
+  #Date 支持斜线写法
+  birth: 2001/03/17
+
+  #Integer
+  age: 20
+
+  #Object  复杂类型封装  对象
+  phone:
+    # { phoneName: iphone 13 pro }
+    phoneName: iphone 13 pro
+
+  #Array
+  #interests: [篮球，足球]
+  interests:
+    - 篮球
+    - 足球
+
+  #List
+  #animal: [ 猫，狗 ]
+  animal:
+    - 猫
+    - 狗
+
+  #Set
+  #salarys: [9999.99,111111]
+  salarys:
+    - 9999.99
+    - 9999.98
+
+  #Map
+  #score: {english:80,math:90}
+  score:
+    english: 80
+    math: 90
+
+  #MapList
+  allPhone:
+    sick:
+      - { phoneName: iphone 13 pro }
+      - phoneName: iphone 13 pro
+    health: [ { phoneName: iphone 13 pro },phoneName: iphone 13 pro ]
+

@@ -1,0 +1,18 @@
+server:
+  port: 80
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2322535585@qq.com
+    password: bilaqwjlvrkidjjd
+    default-encoding: utf-8
+
+  servlet:
+    multipart:
+      # 文件上传默认开启
+      enabled: true
+      # 单个文件大小
+      max-file-size: 100MB
+      # 多个文件大小
+      max-request-size: 1000MB

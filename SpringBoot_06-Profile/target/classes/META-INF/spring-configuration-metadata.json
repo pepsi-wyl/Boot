@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.pepsiwyl.pojo.Person",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    }
+  ],
+  "hints": []
+}

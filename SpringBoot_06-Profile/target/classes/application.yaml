@@ -1,0 +1,34 @@
+---
+spring:
+  profiles: dev
+server:
+  port: 8081
+person:
+  name: pepsi-wyl
+  age: 20
+
+
+---
+spring:
+  profiles: test
+server:
+  port: 8082
+person:
+  name: zhazha
+  age: 20
+
+
+---
+spring:
+  profiles: product
+server:
+  port: 8083
+person:
+  name: wyl
+  age: 20
+
+
+---
+spring:
+  profiles:
+    active: product   # 指定配置文件

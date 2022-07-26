@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>5xx Page</title>
+</head>
+
+<body class="error-page">
+
+<section>
+    <div class="container ">
+        <section class="error-wrapper text-center">
+            <h2 th:text="${timestamp}"></h2>
+            <h1 th:text="${status}"></h1>
+            <h2 th:text="${error}"></h2>
+            <h3 th:text="${message}"></h3>
+            <h5 th:text="${trace}"></h5>
+            <a class="back-btn" th:href="@{/}"> Back To Home</a>
+        </section>
+    </div>
+</section>
+
+</body>
+</html>

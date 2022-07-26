@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "name": "car",
+      "type": "com.pepsiwyl.pojo.Car",
+      "sourceType": "com.pepsiwyl.pojo.Car"
+    },
+    {
+      "name": "person",
+      "type": "com.pepsiwyl.pojo.Person",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "phone",
+      "type": "com.pepsiwyl.pojo.Phone",
+      "sourceType": "com.pepsiwyl.pojo.Phone"
+    }
+  ],
+  "properties": [
+    {
+      "name": "car.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.pojo.Car"
+    },
+    {
+      "name": "car.price",
+      "type": "java.lang.Integer",
+      "sourceType": "com.pepsiwyl.pojo.Car"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.all-phone",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.pepsiwyl.pojo.Phone>>",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.phone",
+      "type": "com.pepsiwyl.pojo.Phone",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "person.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.pojo.Person"
+    },
+    {
+      "name": "phone.phone-name",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.pojo.Phone"
+    }
+  ],
+  "hints": []
+}

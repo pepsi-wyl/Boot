@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+
+
+<form th:action="@{/user}" method="get">
+    <input type="submit" value="GET提交">
+</form>
+<form th:action="@{/user}" method="post">
+    <input type="submit" value="POST提交">
+</form>
+<form th:action="@{/user}" method="post">
+    <input type="hidden" name="method" value="put">
+    <input type="submit" value="PUT提交">
+</form>
+<form th:action="@{/user}" method="post">
+    <input type="hidden" name="method" value="delete">
+    <input type="submit" value="DELETE提交">
+</form>
+
+<form th:action="@{/save}" method="post">
+    <input type="text" name="name"/>
+    <input type="password" name="password"/>
+    <input type="submit">
+</form>
+
+<br/>
+<br/>
+<br/>
+
+<form th:action="@{/pojo}" method="post">
+    姓名： <input name="userName"/> <br/>
+    年龄： <input name="age"/> <br/>
+    生日： <input name="birth"/> <br/>
+    宠物姓名：<input name="pet.name"/><br/>
+    宠物年龄：<input name="pet.age"/>
+    <input type="submit" name="提交">
+</form>
+
+
+</body>
+</html>

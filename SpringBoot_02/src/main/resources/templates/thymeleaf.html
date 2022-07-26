@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf</title>
+</head>
+<body>
+
+<h1 th:text="${msg}">thymeleaf</h1>
+
+<h2>
+    <a href="http://blog.pepsi-wyl.xyz/" th:href="${link}">thymeleaf</a> <br/>
+    <a href="http://blog.pepsi-wyl.xyz/" th:href="@{/thymeleaf}">thymeleaf</a>
+</h2>
+
+</body>
+</html>
